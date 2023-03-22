@@ -12,6 +12,9 @@ theme: {
 		  letterSpacing: {
 			widestDesigned: '0.14em',
 		  },
+		  textDecorationThickness: {
+			05: "0.5px",
+		  },
           fontSize: {
             label_1: ['16px',{lineHeight: '', textTransform: 'uppercase', fontWeight: '500', letterSpacing: '2px' }],
             label_2: ['16px',{lineHeight: '', fontWeight: '500', letterSpacing: '' }],

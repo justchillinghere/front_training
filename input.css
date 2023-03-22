@@ -15,7 +15,8 @@
     }
 	.menu-item:hover {
 		text-decoration: underline;
-		text-decoration-thickness: 2px;
+		text-decoration-thickness: 0.5px;
+		text-underline-offset: 4px;
 		text-decoration-color: #7C3C9A;
 	}
 }
@@ -30,7 +31,6 @@
   }
   
   .hamburger-top,
-  .hamburger-middle,
   .hamburger-bottom {
 	position: absolute;
 	top: 0;
@@ -42,12 +42,8 @@
 	transition: all 0.5s;
   }
   
-  .hamburger-middle {
-	transform: translateY(7px);
-  }
-  
   .hamburger-bottom {
-	transform: translateY(14px);
+	transform: translateY(7px);
   }
   
   .open {
@@ -57,10 +53,6 @@
   
   .open .hamburger-top {
 	transform: rotate(45deg) translateY(6px) translate(6px);
-  }
-  
-  .open .hamburger-middle {
-	display: none;
   }
   
   .open .hamburger-bottom {

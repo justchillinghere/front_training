@@ -8,29 +8,28 @@
 	<title>Конфиденциальность</title>
 </head>
 <body class="bg-black text-white">
-	<nav class="relative container mx-auto border-b-2 border-emerald-50 max-w-full
+	<nav class="relative container mx-auto px-4 md:px-10 border-b-2 border-emerald-50 max-w-full
 				tracking-widestDesigned">
 		<div class="flex items-baseline justify-between my-6">
 			<div>
-				<h1 class="ml-10 hover:text-purple-200">
+				<div id="logo" class="text-label_1 hover:text-purple-200">
 					SPETEQ
-				</h1>
+				</div>
 			</div>
 			<div class="hidden md:flex space-x-16 ml-32">
 				<a href="#" class="menu-item">Портфолио</a>
 				<a href="#" class="menu-item">Решения</a>
-				<a href="#" class="underline decoration-2 hover:decoration-purple-200">DELOZVUKA</a>
+				<a href="#" class="underline decoration-[0.5px] underline-offset-4 hover:decoration-purple-200">DELOZVUKA</a>
 				<a href="#" class="menu-item">Контакты</a>
 				<a href="#" class="menu-item bg-gradient-to-r from-purple-400 to-yellow text-transparent bg-clip-text w-fit">Оставить заявку</a>
 			</div>
-			<div class="hidden md:flex space-x-6 ml-8 mr-10">
+			<div class="hidden md:flex space-x-6 ml-8">
 				<a href="#" class="menu-item">RU</a>
-				<a href="# class="menu-item"">ENG</a>
+				<a href="#" class="menu-item">ENG</a>
 			</div>
 			<!-- Hamberger Icon -->
-			<button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+			<button id="menu-btn" class="block hamburger md:hidden focus:outline-none mr-5">
 				<span class="hamburger-top"></span>
-				<span class="hamburger-middle"></span>
 				<span class="hamburger-bottom"></span>
 			</button>
 		</div>
@@ -38,26 +37,28 @@
 		<div class="md:hidden">
 			<div
 			id="menu"
-			class="absolute flex-col hidden self-end py-8 mt-10 space-y-6 text-menu_sm text-left
-					bg-black w-full drop-shadow-md"
+			class="absolute flex-col hidden py-8 mt-10 px-5 space-y-52 text-menu_sm text-left
+					bg-black w-screen h-screen drop-shadow-md"
 			>
-				<a href="#" class="menu-item">Портфолио</a>
-				<a href="#" class="menu-item">Решения</a>
-				<a href="#" class="menu-item underline decoration-2">DELOZVUKA</a>
-				<a href="#" class="menu-item">Контакты</a>
-				<a href="#" class="menu-item bg-gradient-to-r from-purple-400
-				 to-yellow text-transparent bg-clip-text sm:w-fit">Оставить заявку</a>
-				<div class="flex space-x-6 ml-8 mr-10">
-					<a href="#" class="menu-item">RU</a>
-					<a href="#" class="menu-item">ENG</a>
+				<div class="flex flex-col space-y-6">
+					<a href="#">Портфолио</a>
+					<a href="#">Решения</a>
+					<a href="#" class="underline decoration-[0.5px] underline-offset-4">DELOZVUKA</a>
+					<a href="#">Контакты</a>
+					<a href="#" class="bg-gradient-to-r from-purple-400
+					to-yellow text-transparent bg-clip-text sm:w-fit">Оставить заявку</a>
+				</div>	
+				<div class="flex flex-row space-x-6">
+					<a href="#" class="underline decoration-[0.5px] underline-offset-4">RU</a>
+					<a href="#">ENG</a>
 				</div>
-				</div>
+			</div>
 		</div>
 	</nav>
 	<section id="Terms">
-		<div class="container flex flex-col mx-auto space-y-16">
+		<div class="container flex flex-col px-4 md:px-0 mx-auto space-y-16 ">
 			<div class="text-h2_sm md:text-h2 text-left mt-10">
-				Конфиденциальность
+				Конфиденциаль&shy;ность
 			</div>
 			<div class="flex flex-col space-y-8 text-left">
 				<div class="text-h3_sm md:text-h3 text-left">
@@ -221,7 +222,7 @@
 		</div>
 	</section>
 	<footer>
-		<div class="container flex flex-col md:flex-row my-16 mx-auto tracking-widestDesigned space-y-12">
+		<div class="container flex flex-col md:flex-row my-20 mx-auto px-4 md:px-10 max-w-full space-y-12 tracking-widestDesigned">
 			<div class="flex flex-col space-y-6 text-label_1_sm md:text-label_1 text-left text-gray-200  md:w-1/3">
 				<div class="pb-6 text-gray-500">
 					&copy; 2022 SPETEQ, Inc.
